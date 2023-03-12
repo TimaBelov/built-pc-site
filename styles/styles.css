@@ -1,5 +1,6 @@
 html,button{
     font-family: 'Roboto',sans-serif;
+    background-color: rgb(27, 27, 27);
 }
 
 h1{
@@ -50,6 +51,7 @@ header{
     background-image: url(../resources/main-screen__bgc.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 200px;
 }
 
 nav{
@@ -201,3 +203,84 @@ nav button{
 .graph_text p:first-child{
     margin-right: 623px;
 }
+
+.about_us{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.about_us img{
+    margin-right: 134px;
+}
+
+.about_us h2{
+    margin-bottom: 45px;
+}
+
+.about_us p{
+    width: 636px;
+}
+
+
+.fast_start_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fast_start_header img{
+    margin-right: 20px;
+}
+
+.fast_start p{
+    width: 411px;
+    opacity: 0.5;
+    margin-bottom: 80px;
+}
+
+.fast_start_graphic_header{
+    display: flex;
+    margin-bottom: 20px;
+}
+.fast_start_graphic_header h3:first-child{
+    margin-right: 235px;
+}
+
+.fast_start_graphic_header h3{
+    margin-right: 256px;
+}
+
+.fast_start_graphic_line{
+    display: flex;
+    align-items: center;
+}
+.fast_start_graphic_line_item{
+    width: 324px;
+    height: 80px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    margin-bottom: 35px;
+}
+
+.fast_start_graphic_line_item:nth-child(2){
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    height: 60px;
+}
+.fast_start_graphic_line_item:nth-child(3){
+    height: 30px;
+}
+.fast_start_graphic_line_item:nth-child(4){
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    height: 10px;
+}
+
+.fast_start_graphic_description{
+    display: flex;
+}
+
+.fast_start_graphic_description p{
+    width: 306px;
+    margin-right: 18px;
+}
+
+
+
