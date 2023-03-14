@@ -204,6 +204,7 @@ nav button{
     margin-right: 623px;
 }
 
+
 .about_us{
     display: flex;
     margin-bottom: 200px;
@@ -284,7 +285,57 @@ nav button{
 .fast_start_graphic_description p{
     width: 306px;
     margin-right: 18px;
+    margin-bottom: 200px;
 }
 
+.course_description{
+    text-align: center;
+    width: 100%;
+}
+
+.course_description_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+.course_description h2{
+    margin-bottom: 120px;
+}
+
+.course_description_item{
+    margin-right: 24px;
+}
+
+.course_description_item h4{
+    width: 416px;
+}
+
+.course_description_item h4::before{
+    text-align: center;
+    content: '';
+    display: block;
+    background-image: url(../resources/computer_ico.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 60px auto;
+}
+
+.course_description_item:nth-child(2) h4::before{
+    background-image: url(../resources/flash_ico.png);
+}
+
+.course_description_item:nth-child(3) h4::before{
+    background-image: url(../resources/cabel_ico.png);
+}
+
+.course_description_item p{
+    text-align: center;
+    width: 358px;
+    margin: 30px auto 0 auto;
+    opacity: 0.8;
+}
 
 
