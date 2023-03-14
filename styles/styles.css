@@ -387,6 +387,7 @@ nav button{
 .study_programm h5{
     margin: 0 auto;
     width: 411px;
+    font-weight: 400;
     opacity: 0.5;
 
     margin-bottom: 90px;
@@ -469,6 +470,10 @@ nav button{
     left: -60px;
 }
 
+.teachers{
+    margin-bottom: 200px;
+}
+
 .teachers_header{
     display: flex;
     align-items: center;
@@ -505,4 +510,99 @@ nav button{
     padding: 10px 30px;
     border: 1px solid #FFFFFF;
     border-radius: 50px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}
+
+footer h2{
+    margin-bottom: 30px;
+}
+
+footer h5{
+    font-weight: 400;
+    opacity: 0.5;
+    width: 411px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.footer_input_email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    position: relative;
+    width: 492px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.footer_input_email input{
+    width: 353px;
+    height: 44px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 20px;
+
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.footer_input_email input::placeholder{
+    color: white;
+}
+
+.footer_input_email input:focus{
+    outline: none;
+}
+
+.footer_input_email button{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    color: white;
+    padding: 11px 30px;
+    border: none;
+
+    position: absolute;
+    right: 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    cursor: pointer;
+}
+
+.social_networks{
+    display: flex;
+    justify-content: center;
+}
+
+.social_networks_item{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.social_networks_item img{
+    padding: 13px;
+}
+
+.social_networks_item:last-child img{
+    margin-right: 0;
+}
+
+footer h5:last-child{
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-weight: 400;
+    opacity: 0.8;
 }
