@@ -388,4 +388,83 @@ nav button{
     margin: 0 auto;
     width: 411px;
     opacity: 0.5;
+
+    margin-bottom: 90px;
+}
+
+.study_programm_graph{
+    display: flex;
+    justify-content: center;
+}
+
+.study_programm_graph h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+    opacity: 0.5;
+    text-align: right;
+
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.study_programm_graph p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+
+    text-align: right;
+    width: 228px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.study_programm_graph_row{
+    margin-right: 60px;
+}
+
+.study_programm_graph_row_item{
+    width: 304px;
+    margin: 0 auto;
+    margin-bottom: 87px;
+    position: relative;
+}
+
+.study_programm_graph_row_item::after{
+    content: '';
+    display: block;
+    width: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+    right: -60px;
+    bottom: 50%;   
+}
+
+.study_programm_graph_separator{
+    width: 6px;
+    height: 640px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+
+}
+
+.study_programm_graph_row:last-child{
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 0;
+}
+
+.study_programm_graph_row:last-child p{
+    text-align: left;
+    margin-left: 0;
+}
+
+.study_programm_graph_row:last-child h3{
+    text-align: left;
+}
+
+.study_programm_graph_row:last-child .study_programm_graph_row_item::after{
+    right: 0;
+    left: -60px;
 }
