@@ -339,6 +339,10 @@ nav button{
     opacity: 0.8;
 }
 
+.partners{
+    margin-bottom: 153px;
+}
+
 .partners_header_wrapper{
     display: flex;
     align-items: center;
@@ -366,4 +370,22 @@ nav button{
 
 .partners_item:last-child img{
     border-bottom: none;
+}
+
+.study_programm{
+    text-align: center;
+}
+
+.study_programm img:first-child{
+    margin-bottom: 31px;
+}
+
+.study_programm h2{
+    margin-bottom: 30px;
+}
+
+.study_programm h5{
+    margin: 0 auto;
+    width: 411px;
+    opacity: 0.5;
 }
