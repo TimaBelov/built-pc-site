@@ -468,3 +468,41 @@ nav button{
     right: 0;
     left: -60px;
 }
+
+.teachers_header{
+    display: flex;
+    align-items: center;
+}
+
+.teachers_container{
+    display: flex;
+    justify-content: center;
+}
+
+.teachers_container_item{
+    width: 416px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.teachers_container_item img{
+    margin-bottom: 40px;
+}
+
+.teachers_container_item h4{
+    margin-bottom: 15px;
+}
+
+.teachers_container_item h5{
+    font-weight: 400;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.teachers_container_item button{
+    color: white;
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+}
