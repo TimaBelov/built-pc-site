@@ -291,6 +291,7 @@ nav button{
 .course_description{
     text-align: center;
     width: 100%;
+    margin-bottom: 200px;
 }
 
 .course_description_wrapper{
@@ -338,4 +339,31 @@ nav button{
     opacity: 0.8;
 }
 
+.partners_header_wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 89px;
+}
 
+.partners_header_wrapper img{
+    margin-right: 20px;
+}
+
+.partners_item{
+    display: flex;
+}
+
+.partners_item img{
+    padding: 29px 66px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.partners_item img:last-child{
+    border-right: none;
+}
+
+.partners_item:last-child img{
+    border-bottom: none;
+}
