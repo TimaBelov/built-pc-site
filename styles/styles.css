@@ -238,6 +238,10 @@ nav button{
     margin-bottom: 80px;
 }
 
+.fast_start_description{
+    margin-left: 30px;
+}
+
 .fast_start_graphic_header{
     display: flex;
     margin-bottom: 20px;
